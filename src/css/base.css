@@ -16,6 +16,13 @@
   -webkit-text-size-adjust: 100%;
 }
 
+@font-face {
+  font-family: 'Gilroy-Black', sans-serif;
+  src: url('../../fonts/Gilroy-Black/Gilroy-Black.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
+
 body {
   display: flex;
   flex-direction: column;
