@@ -23,7 +23,6 @@
 }
 
 .reviews-img {
-  /* margin-bottom: 24px; */
   margin: 0 auto 24px auto;
 }
 
@@ -82,7 +81,7 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
   .reviews {
     margin-bottom: 100px;
   }
