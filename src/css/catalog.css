@@ -36,6 +36,7 @@ ul {
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  align-items: flex-start;
   margin-bottom: 24px;
 }
 
@@ -55,24 +56,10 @@ ul {
 
 @media only screen and (min-width: 768px) {
   .catalog-menu {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
     gap: 32px 16px;
-    flex-wrap: wrap;
-
-    /* display: flex;
-    gap: 32px 16px;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
-    text-align: start; */
   }
-
-  /* .catalog-list {
-    display: block;
-    width: calc((100% - 16px) / 2);
-  } */
 }
 
 @media only screen and (min-width: 1280px) {
@@ -81,14 +68,7 @@ ul {
     flex-direction: row;
     gap: 32px 23px;
     flex-wrap: wrap;
-    /* align-items: center;
-    justify-content: center; */
   }
-
-  /* .catalog-list {
-  display: flex;
-    width: calc((100% - 2*23px) / 3);
-  } */
 }
 
 .catalog-list {
@@ -147,13 +127,31 @@ ul {
 }
 
 .catalog-name {
+  display: flex;
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
+  font-size: 20px;
+  line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
   margin-bottom: 8px;
+  width: 280px;
+  height: 18px;
+}
+
+@media only screen and (max-width: 1280px) {
+  .catalog-name {
+    display: flex;
+    width: 304px;
+  }
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  min-width: 100%;
 }
 
 .catalog-price {
