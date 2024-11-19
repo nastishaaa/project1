@@ -39,6 +39,7 @@
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 16px;
     background-color: #f3f3f3;
+
 }
 
 .section-sale-img-preview {
@@ -127,6 +128,9 @@
     line-height: 1.33;
     color: #fbfbfb;
 }
+
+
+
 
 @media only screen and (min-width: 768px) {
     .section-sale-title {
