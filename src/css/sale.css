@@ -1,4 +1,5 @@
 * {
+    font-family: "Gilroy", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -9,7 +10,6 @@
 }
 
 .section-sale-title {
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 48px;
     line-height: 1;
@@ -65,7 +65,6 @@
 }
 
 .section-sale-subtitle {
-    font-family: "Gilroy", sans-serif;
     max-width: 279px;
     font-weight: 600;
     font-size: 32px;
@@ -93,7 +92,6 @@
 }
 
 .section-sale-new-price {
-    font-family: "Gilroy", sans-serif;
     padding: 8px 12px;
     border-radius: 8px;
     background-color: rgba(251, 251, 251, 0.1);
@@ -105,7 +103,6 @@
 }
 
 .section-sale-old-price {
-    font-family: "Gilroy", sans-serif;
     font-weight: 400;
     font-size: 12px;
     padding: 9px;
@@ -116,7 +113,6 @@
 }
 
 .section-sale-text-description {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.29;
@@ -132,7 +128,6 @@
 }
 
 .section-sale-block-item {
-    font-family: "Gilroy", sans-serif;
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 8px;
     padding: 8px 12px;
