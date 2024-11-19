@@ -151,11 +151,13 @@
     margin-left: auto;
     gap: 10px;
  }
-  .card-soc-link:hover,
-  .card-soc-link:focus {
+  .card-soc-link:hover .card-socnetwork,
+  .card-soc-link:focus .card-socnetwork {
     fill: #3350e9;
+    opacity: 0.8;
   }
  }
+
 
 /*mobile menu*/
  .mobile-menu {
@@ -275,6 +277,11 @@
 
   .card-soc-link-mob{
    text-align: center;
+  }
+
+  .card-soc-link-mob:hover .card-socnetwork-mob, 
+  .card-soc-link-mob:focus .card-socnetwork-mob{
+   fill: #fbfbfb;
   }
 
   .card-soc-item-mob{
