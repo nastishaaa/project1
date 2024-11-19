@@ -3,10 +3,15 @@
     margin: 0;
     padding: 0;
 }
+.section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 .section-sale-title {
+    font-family: "Gilroy", sans-serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 48px;
     line-height: 1;
     letter-spacing: -0.02em;
     color: #0c0c0c;
@@ -60,9 +65,10 @@
 }
 
 .section-sale-subtitle {
+    font-family: "Gilroy", sans-serif;
     max-width: 279px;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 32px;
     line-height: 1.17;
     letter-spacing: -0.02em;
     color: #fbfbfb;
@@ -71,6 +77,8 @@
 
 .section-sale-tag {
     display: inline-block;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     letter-spacing: -0.02em;
@@ -85,19 +93,22 @@
 }
 
 .section-sale-new-price {
+    font-family: "Gilroy", sans-serif;
     padding: 8px 12px;
     border-radius: 8px;
     background-color: rgba(251, 251, 251, 0.1);
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.25;
     letter-spacing: -0.02em;
     color: #fbfbfb;
 }
 
 .section-sale-old-price {
-    padding: 9px;
+    font-family: "Gilroy", sans-serif;
+    font-weight: 400;
     font-size: 12px;
+    padding: 9px;
     line-height: 1.17;
     letter-spacing: -0.02em;
     text-decoration: line-through;
@@ -105,8 +116,9 @@
 }
 
 .section-sale-text-description {
+    font-family: "Gilroy", sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.29;
     letter-spacing: -0.02em;
     color: rgba(251, 251, 251, 0.7);
@@ -120,11 +132,12 @@
 }
 
 .section-sale-block-item {
+    font-family: "Gilroy", sans-serif;
     border: 1px solid rgba(251, 251, 251, 0.2);
     border-radius: 8px;
     padding: 8px 12px;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.33;
     color: #fbfbfb;
 }
@@ -132,7 +145,7 @@
 
 
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .section-sale-title {
         font-size: 48px;
         line-height: 0.92;
@@ -200,7 +213,7 @@
 }
 
 
-@media only screen and (min-width: 1279px) {
+@media screen and (min-width: 1279px) {
     .section-sale-img-item {
         height: auto;
     }
