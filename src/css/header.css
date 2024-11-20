@@ -142,8 +142,8 @@
    .header-nav {
  display: flex;
  align-items: center;
- padding-top: 26px;
- padding-bottom: 26px;
+ margin: 26px;
+ margin-bottom: 26px;
    }
 
    .nav-list {
