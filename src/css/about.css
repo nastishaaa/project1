@@ -1,0 +1,124 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.about-us section {
+    font-family: Gilroy, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--main-text-color);
+}
+
+.about-us .section-title {
+    margin-bottom: 28px;
+}
+
+.about-text-wrapper {
+    padding: 40px 20px;
+    background-color: rgba(243, 243, 243, 1);
+    border-radius: 30px;
+    max-width: 335px;
+    margin-bottom: 20px;
+}
+
+
+.about-text {
+    font-size: 16px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+}
+
+.about-text-item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.about-text-list {
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 48px;
+    border: none;
+    border-radius: 16px;
+    font-size: 14px;
+    line-height: 1.29;
+}
+
+.about-link {
+    background-color: rgba(51, 80, 233, 1);
+    color: rgba(251, 251, 251, 1);
+    transition: background-color var(--default-duration) var(--timing-function);
+}
+
+.about-link:hover,
+.about-link:focus {
+    background-color: #1f3cd4;
+}
+
+.about-img-watch {
+    border-radius: 30px;
+}
+
+.section-title {
+    font-weight: 600;
+    letter-spacing: -.02em;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .section {
+        padding: 40px 0;
+    }
+
+    .section-title {
+        font-size: 48px;
+        line-height: .92;
+    }
+
+    .about-text-wrapper {
+        padding: 80px 60px;
+        border-radius: 50px;
+        max-width: 704px;
+        margin-bottom: 40px;
+    }
+
+    .about-text {
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .about-img-watch {
+        border-radius: 50px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+    .about-text-list {
+        margin-bottom: 60px;
+    }
+
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .about-us-box-desk {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .about-text-wrapper {
+        max-width: 580px;
+        max-height: 532px;
+        margin-bottom: 0;
+    }
+}
