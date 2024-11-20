@@ -1,6 +1,6 @@
 .advert {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .visually-hidden {
   position: absolute;
@@ -100,8 +100,8 @@
 }
 @media only screen and (min-width: 1280px) {
   .advert {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
   }
   .advert-container {
     display: flex;
