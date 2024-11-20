@@ -201,6 +201,11 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .footer .container {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
   .footer-label {
     position: absolute;
     top: 40px;
