@@ -1,0 +1,128 @@
+.advert {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.advert-container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 335px;
+  height: 363px;
+  padding: 60px 28px;
+  border-radius: 30px;
+  height: 363px;
+  background: #0c0c0c;
+  background-image: url(../img/contact-phone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+@media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .advert-container {
+    background-image: url(../img/contact-phone@2x.png);
+  }
+}
+.ad-text-container {
+  max-width: 279px;
+  margin-bottom: 28px;
+}
+.ad-text {
+  width: 100%;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.ad-part {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.ad-btn {
+  display: flex;
+  padding: 15px auto;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.ad-btn:hover {
+  color: #0c0c0c;
+  background: #fbfbfb;
+}
+
+@media only screen and (min-width: 768px) {
+  .advert {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .advert-container {
+    max-width: 704px;
+    height: 425px;
+    padding: 80px 64px;
+    background-image: url(../img/contact-tab.png);
+  }
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .advert-container {
+      background-image: url(../img/contact-tab@2x.png);
+    }
+  }
+  .ad-text-container {
+    max-width: 576px;
+    margin-bottom: 32px;
+  }
+  .ad-text {
+    width: 100%;
+    font-size: 48px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .advert {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .advert-container {
+    display: flex;
+    flex-direction: row;
+    row-gap: 140px;
+    gap: 140px;
+    max-width: 1150px;
+    height: 298px;
+    padding: 83px 80px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background-image: url(../img/contact.png);
+  }
+  @media (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .advert-container {
+      background-image: url(../img/contact@2x.png);
+    }
+  }
+  .ad-text-container {
+    max-width: 690px;
+  }
+  .ad-text {
+    width: 100%;
+  }
+}

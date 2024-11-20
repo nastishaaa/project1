@@ -55,7 +55,7 @@
     background-color: rgba(51, 80, 233, 1);
     color: rgba(251, 251, 251, 1);
     transition: background-color var(--default-duration) var(--timing-function);
-    }
+}
 
 .about-link:hover,
 .about-link:focus {
@@ -74,8 +74,8 @@
 @media only screen and (min-width: 768px) {
 
     .section {
-            padding: 40px 0;
-        }
+        padding: 40px 0;
+    }
 
     .section-title {
         font-size: 48px;
@@ -104,10 +104,10 @@
         margin-bottom: 60px;
     }
 
-        .container {
-            max-width: 768px;
-            padding: 0 32px;
-        }
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
 }
 
 @media only screen and (min-width: 1280px) {
