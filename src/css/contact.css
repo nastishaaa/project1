@@ -191,6 +191,7 @@
   .contact-image {
     width: 530px;
     margin-top: 134px;    
-    margin-bottom: 0;      
+    margin-bottom: 0; 
+    margin-left: -65px;     
   }  
 }
