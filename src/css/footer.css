@@ -46,9 +46,6 @@
   opacity: 1;
 }
 
-.footer-icon {
-}
-
 .footer-tel {
   font-size: 12px;
   line-height: 1.33;
@@ -134,6 +131,10 @@
 /* ------------------------------------------------------- */
 
 @media only screen and (min-width: 768px) {
+  .footer {
+    margin-top: 40px;
+  }
+
   .footer-wrapper {
     padding: 40px 40px 28px 40px;
     position: relative;
@@ -201,6 +202,10 @@
 }
 
 @media only screen and (min-width: 1280px) {
+  .footer {
+    margin-top: 50px;
+  }
+
   .footer .container {
     padding-right: 32px;
     padding-left: 32px;
