@@ -211,4 +211,8 @@
   .footer-soc-list {
     margin-bottom: 142px;
   }
+
+  .footer-address {
+    max-width: 170px;
+  }
 }
