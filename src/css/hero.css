@@ -124,6 +124,7 @@
     .hero-main-text {
         font-weight: 600;
         max-width: 335px;
+        min-width: 335px;
             font-size: 40px;
             line-height: 0.95;
             letter-spacing: -0.02em;
@@ -132,6 +133,7 @@
     .hero-text {
         font-weight: 500;
         max-width: 335px;
+        min-width: 335px;
             font-size: 14px;
             line-height: 1.28571;
             letter-spacing: -0.02em;
@@ -141,9 +143,13 @@
     .hero-section {
         padding-bottom: 60px;
     }
+    .scroll-down {
+        position: relative;
+        right: 100.3px;
+    }
         .container-hero-icons-scroll {
             position: relative;
-            top: 366px;
-            right: 189px;
+            top: 246px;
+            right: 318px;
         }
 }
