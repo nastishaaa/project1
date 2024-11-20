@@ -134,11 +134,8 @@
 /* ------------------------------------------------------- */
 
 @media only screen and (min-width: 768px) {
-  .footer {
+  .footer-wrapper {
     padding: 40px 40px 28px 40px;
-  }
-
-  .container {
     position: relative;
   }
 
@@ -154,8 +151,8 @@
     font-size: 14px;
     line-height: 1.28;
     position: absolute;
-    top: 0px;
-    right: 32px;
+    top: 40px;
+    right: 40px;
   }
 
   .footer-label {
@@ -172,7 +169,7 @@
 
   .footer-list {
     flex-wrap: nowrap;
-    max-width: 450px;
+    min-width: 400px;
     gap: 19px;
   }
 
@@ -184,16 +181,16 @@
   .footer-address {
     font-size: 14px;
     line-height: 1.28;
-    max-width: 172px;
+    min-width: 162px;
   }
 
   .footer-line {
-    /* width: 624px; */
     margin-bottom: 28px;
   }
 
   .footer-rights {
-    gap: 159px;
+    flex-wrap: nowrap;
+    /* gap: 159px; */
   }
 
   .footer-rights-item {
@@ -206,7 +203,7 @@
 @media only screen and (min-width: 1280px) {
   .footer-label {
     position: absolute;
-    top: 0%;
+    top: 40px;
     left: 50%;
     transform: translateX(-50%);
   }
