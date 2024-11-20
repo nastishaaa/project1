@@ -116,6 +116,7 @@
      left: 15px;
      bottom: -9px;
      border-radius: 100%;
+     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
     .mobile-menu-nav{
@@ -164,6 +165,7 @@
   .card-soc-link:focus .card-socnetwork {
     fill: #3350e9;
     opacity: 0.8;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
  }
 
@@ -291,6 +293,7 @@
   .card-soc-link-mob:hover .card-socnetwork-mob, 
   .card-soc-link-mob:focus .card-socnetwork-mob{
    fill: #fbfbfb;
+   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .card-soc-item-mob{
