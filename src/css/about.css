@@ -4,14 +4,21 @@
     box-sizing: border-box;
 }
 
-.about-us section {
+.container {
+    max-width: 768px;
+    padding: 0 32px;
+    margin: 0 auto;
+}
+
+.aboutus, section {
     font-family: Gilroy, sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: var(--main-text-color);
+    display: flex;
 }
 
-.about-us .section-title {
+.aboutus .section-title {
     margin-bottom: 28px;
 }
 
@@ -74,6 +81,11 @@
 
 @media only screen and (min-width: 768px) {
 
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
     .section {
         padding: 40px 0;
     }
@@ -112,7 +124,7 @@
 }
 
 @media only screen and (min-width: 1280px) {
-    .about-us-box-desk {
+    .aboutus-box-desk {
         display: flex;
         justify-content: space-between;
     }
