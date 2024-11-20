@@ -9,6 +9,7 @@
  .nav-list,
  .card-soc-list {
  display: none;
+ 
  }
 
  
@@ -76,13 +77,16 @@
  @media screen and (min-width: 1280px){
  .container {
  max-width: 1280px;
+
  }
     .burger-btn {
     display: none;
 }
 
 .header-container{
-   padding: 26px 65px;
+   /* padding: 26px 65px; */
+   padding-top: 26px;
+   padding-bottom: 26px;
 }
 
 .card-socnetwork{
@@ -123,6 +127,11 @@
  gap: 10px;
 
  }
+
+ .header-nav,
+.card-soc-list {
+    margin: 0;
+}
  
   .card-soc-link {
  display: flex;
