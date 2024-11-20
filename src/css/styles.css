@@ -4,7 +4,17 @@
   | default @import url()
   |============================
 */
-@import url('../../fonts/stylesheet.css');
+@font-face {
+  font-family: 'Gilroy-Black';
+  src: url('../fonts/Gilroy-Black.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Gilroy-Black', sans-serif;
+}
+
 
 
 /* Common styles */
