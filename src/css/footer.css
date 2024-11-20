@@ -1,14 +1,13 @@
 .footer {
   font-family: 'Gilroy', sans-serif;
-  border-radius: 30px;
-  padding: 40px 28px 28px 28px;
-  background: #0c0c0c;
   margin-top: 30px;
   font-weight: 500;
 }
 
-.footer > .container {
-  min-width: 1px;
+.footer-wrapper {
+  padding: 40px 28px 28px 28px;
+  background: #0c0c0c;
+  border-radius: 30px;
 }
 
 .footer-logo {
