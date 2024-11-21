@@ -75,7 +75,6 @@ ul {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   width: 335px;
-  height: 364px;
   background: #f3f3f3;
   padding: 24px 28px;
 }
@@ -86,7 +85,7 @@ ul {
 
 @media only screen and (min-width: 768px) {
   .catalog-list {
-    width: 344px;
+    /* width: 344px; */
     height: 414px;
     padding: 24px 32px;
   }
