@@ -1,6 +1,10 @@
 /* contact us */
 
-.contactus {
+.cont {
+  margin-top: 30px;  
+}
+
+.user-contact-inform {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,6 +26,7 @@
   color: #0C0C0C;
   margin-bottom: 24px;
   text-align: left;
+  padding-left: 0;
 }
 
 .contact-data {
@@ -30,9 +35,7 @@
   padding-top: 48px;
   padding-left: 28px;
   background-color: #F3F3F3;
-  border-radius: 30px;
-  margin-right: auto;
-  margin-left: auto;
+  border-radius: 30px; 
 }
 
 .contact-text-box {
@@ -101,10 +104,9 @@
 }
    
 .contact-image {
-  margin-top: 20px;
-  margin-left: auto;
+  margin-top: 20px;  
   margin-bottom: 30px;
-  margin-right: auto;
+  width: 335px;  
 }  
 
 @media screen and (min-width: 768px) {
@@ -173,12 +175,14 @@
   .contact-image {
     margin-top: 40px;
     margin-bottom: 40px;
+    width: 704px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .contactus {
-    flex-direction: row;    
+  .user-contact-inform {
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .cont {
@@ -188,13 +192,12 @@
   .contact-data {
     width: 580px;
     padding-left: 60px;
-    padding-right: 60px;
+    padding-right: 60px;    
   }
 
   .contact-image {
     width: 530px;
-    margin-top: 134px;    
-    margin-bottom: 0; 
-    margin-left: -65px;     
+    margin-top: 0;       
+    margin-bottom: 0;            
   }  
 }
