@@ -18,6 +18,11 @@
   margin-bottom: 20px;
 }
 
+.footer-logo:hover, 
+.footer-logo:focus{
+fill: #fbfbfb;
+}
+
 .footer-soc-list {
   display: flex;
   align-items: center;

@@ -54,6 +54,7 @@
 .contact-form-comment {
   width: 279px;
   border-radius: 12px; 
+  padding: 16px;
   resize: none;  
   border: 1px solid rgba(0, 0, 0, 0.15);
   background-color: transparent;
