@@ -84,6 +84,8 @@
     background-image: url(../img/rectangle-hero@2x.png);
     background-repeat: no-repeat;
 }
+
+
 @media (min-resolution: 192dpi) and (min-width: 1280px) {
     .background {
         background-image: url(../img/rectangle-hero@2x.png);
