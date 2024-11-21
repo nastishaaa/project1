@@ -8,8 +8,8 @@
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
-@import url('./container.css');
 @import url('../fonts/stylessheet.css');
+@import url('./container.css');
 
 
 /* Sections style */
